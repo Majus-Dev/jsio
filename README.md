@@ -4,7 +4,7 @@ Electron based input overlay
 Run with `npm start`
 or build with `npm run build`
 
-Requires:
+Requires:  
 Java  
 Node.js  
 NPM  
