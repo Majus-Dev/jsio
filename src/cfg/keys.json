@@ -1,0 +1,121 @@
+[
+    {
+        "name": "W",
+        "value": "W",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 1
+        }
+    },
+    {
+        "name": "A",
+        "value": "A",
+        "pressed": false,
+        "pos": {
+            "x": 2,
+            "y": 2
+        }
+    },
+    {
+        "name": "S",
+        "value": "S",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 2
+        }
+    },
+    {
+        "name": "D",
+        "value": "D",
+        "pressed": false,
+        "pos": {
+            "x": 4,
+            "y": 2
+        }
+    },
+    {
+        "name": "Q",
+        "value": "Q",
+        "pressed": false,
+        "pos": {
+            "x": 2,
+            "y": 1
+        }
+    },
+    {
+        "name": "R",
+        "value": "R",
+        "pressed": false,
+        "pos": {
+            "x": 5,
+            "y": 1
+        }
+    },
+    {
+        "name": "E",
+        "value": "E",
+        "pressed": false,
+        "pos": {
+            "x": 4,
+            "y": 1
+        }
+    },
+    {
+        "name": "Shift",
+        "value": "Left Shift",
+        "pressed": false,
+        "pos": {
+            "x": 1,
+            "y": 3
+        }
+    },
+    {
+        "name": "Ctrl",
+        "value": "Left Control",
+        "pressed": false,
+        "pos": {
+            "x": 1,
+            "y": 4
+        }
+    },
+    {
+        "name": "Space",
+        "value": "Space",
+        "pressed": false,
+        "pos": {
+            "x": 2,
+            "y": 3
+        },
+        "width": 2
+    },
+
+    {
+        "name": "M1",
+        "value": "M1",
+        "pressed": false,
+        "pos": {
+            "x": 6,
+            "y": 3
+        }
+    },
+    {
+        "name": "M2",
+        "value": "M2",
+        "pressed": false,
+        "pos": {
+            "x": 7,
+            "y": 3
+        }
+    },
+    {
+        "name": "M5",
+        "value": "M5",
+        "pressed": false,
+        "pos": {
+            "x": 5,
+            "y": 4
+        }
+    }
+]

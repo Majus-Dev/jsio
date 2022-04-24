@@ -1,0 +1,6 @@
+[
+    {
+        "description": "Use 'rainbow' to get a rainbow of colors, or you can use any hex code to get a specific color. For example, '#ff0000' is red.",
+        "activebackground": "rainbow"
+    }
+]

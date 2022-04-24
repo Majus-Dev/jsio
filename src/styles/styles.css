@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    font-family: 'Noto Sans JP';
+    background-color: black;
+    color: white;
+}
+.grid {
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    gap: 0;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px
+}
+
+.key {
+    font-weight: bold;
+}
+.unpressed {
+    background-image: linear-gradient(#808080, #808080);
+}
+
+.rainbow {
+    animation: rainbow 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    100%,0%{
+        background-color: #FF4F4F;
+    }
+    8%{
+        background-color: #FFA74F;
+    }
+    16%{
+        background-color: #FFFF4F;
+    }
+    25%{
+        background-color: #A7FF4F;
+    }
+    33%{
+        background-color: #4FFF4F;
+    }
+    41%{
+        background-color: #4FFFA7;
+    }
+    50%{
+        background-color: #4FFFFF;
+    }
+    58%{
+        background-color: #4FA7FF;
+    }
+    66%{
+        background-color: #4F4FFF;
+    }
+    75%{
+        background-color: #A74FFF;
+    }
+    83%{
+        background-color: rgb(255,0,255);
+    }
+    91%{
+        background-color: rgb(255,0,127);
+    }
+}
