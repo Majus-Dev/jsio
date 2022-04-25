@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Q",
+    "value": "Q",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 1
+    }
+  },
+  {
+    "name": "W",
+    "value": "W",
+    "pressed": false,
+    "pos": {
+      "x": 3,
+      "y": 1
+    }
+  },
+  {
+    "name": "E",
+    "value": "E",
+    "pressed": false,
+    "pos": {
+      "x": 4,
+      "y": 1
+    }
+  },
+  {
+    "name": "R",
+    "value": "R",
+    "pressed": false,
+    "pos": {
+      "x": 5,
+      "y": 1
+    }
+  },
+  {
+    "name": "T",
+    "value": "T",
+    "pressed": false,
+    "pos": {
+      "x": 6,
+      "y": 1
+    }
+  },
+  {
+    "name": "Y",
+    "value": "Y",
+    "pressed": false,
+    "pos": {
+      "x": 7,
+      "y": 1
+    }
+  },
+  {
+    "name": "U",
+    "value": "U",
+    "pressed": false,
+    "pos": {
+      "x": 8,
+      "y": 1
+    }
+  },
+  {
+    "name": "I",
+    "value": "I",
+    "pressed": false,
+    "pos": {
+      "x": 9,
+      "y": 1
+    }
+  },
+  {
+    "name": "O",
+    "value": "O",
+    "pressed": false,
+    "pos": {
+      "x": 10,
+      "y": 1
+    }
+  },
+  {
+    "name": "P",
+    "value": "P",
+    "pressed": false,
+    "pos": {
+      "x": 11,
+      "y": 1
+    }
+  },
+  {
+    "name": "A",
+    "value": "A",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 2
+    }
+  },
+  {
+    "name": "S",
+    "value": "S",
+    "pressed": false,
+    "pos": {
+      "x": 3,
+      "y": 2
+    }
+  },
+  {
+    "name": "D",
+    "value": "D",
+    "pressed": false,
+    "pos": {
+      "x": 4,
+      "y": 2
+    }
+  },
+  {
+    "name": "F",
+    "value": "F",
+    "pressed": false,
+    "pos": {
+      "x": 5,
+      "y": 2
+    }
+  },
+  {
+    "name": "G",
+    "value": "G",
+    "pressed": false,
+    "pos": {
+      "x": 6,
+      "y": 2
+    }
+  },
+  {
+    "name": "H",
+    "value": "H",
+    "pressed": false,
+    "pos": {
+      "x": 7,
+      "y": 2
+    }
+  },
+  {
+    "name": "J",
+    "value": "J",
+    "pressed": false,
+    "pos": {
+      "x": 8,
+      "y": 2
+    }
+  },
+  {
+    "name": "K",
+    "value": "K",
+    "pressed": false,
+    "pos": {
+      "x": 9,
+      "y": 2
+    }
+  },
+  {
+    "name": "L",
+    "value": "L",
+    "pressed": false,
+    "pos": {
+      "x": 10,
+      "y": 2
+    }
+  },
+  {
+    "name": "Z",
+    "value": "Z",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 3
+    }
+  },
+  {
+    "name": "X",
+    "value": "X",
+    "pressed": false,
+    "pos": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "name": "C",
+    "value": "C",
+    "pressed": false,
+    "pos": {
+      "x": 4,
+      "y": 3
+    }
+  },
+  {
+    "name": "V",
+    "value": "V",
+    "pressed": false,
+    "pos": {
+      "x": 5,
+      "y": 3
+    }
+  },
+  {
+    "name": "B",
+    "value": "B",
+    "pressed": false,
+    "pos": {
+      "x": 6,
+      "y": 3
+    }
+  },
+  {
+    "name": "N",
+    "value": "N",
+    "pressed": false,
+    "pos": {
+      "x": 7,
+      "y": 3
+    }
+  },
+  {
+    "name": "M",
+    "value": "M",
+    "pressed": false,
+    "pos": {
+      "x": 8,
+      "y": 3
+    }
+  },
+  {
+    "name": ",",
+    "value": "Comma",
+    "pressed": false,
+    "pos": {
+      "x": 9,
+      "y": 3
+    }
+  },
+  {
+    "name": ".",
+    "value": "Period",
+    "pressed": false,
+    "pos": {
+      "x": 10,
+      "y": 3
+    }
+  },
+  {
+    "name": "-",
+    "value": "Minus",
+    "pressed": false,
+    "pos": {
+      "x": 11,
+      "y": 3
+    }
+  },
+  {
+    "name": "Tab",
+    "value": "Tab",
+    "pressed": false,
+    "pos": {
+      "x": 1,
+      "y": 1
+    }
+  },
+  {
+    "name": "Caps",
+    "value": "Caps Lock",
+    "pressed": false,
+    "pos": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  {
+    "name": "Shift",
+    "value": "Left Shift",
+    "pressed": false,
+    "pos": {
+      "x": 1,
+      "y": 3
+    }
+  },
+  {
+    "name": "Ctrl",
+    "value": "Left Control",
+    "pressed": false,
+    "pos": {
+      "x": 1,
+      "y": 4
+    }
+  },
+  {
+    "name": "Win",
+    "value": "Left Meta",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 4
+    }
+  },
+  {
+    "name": "Alt",
+    "value": "Left Alt",
+    "pressed": false,
+    "pos": {
+      "x": 3,
+      "y": 4
+    }
+  },
+  {
+    "name": "Space",
+    "value": "Space",
+    "pressed": false,
+    "pos": {
+      "x": 4,
+      "y": 4
+    },
+    "width": 8
+  }
+]

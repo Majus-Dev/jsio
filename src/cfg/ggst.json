@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Up",
+    "value": "W",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 1
+    }
+  },
+  {
+    "name": "Down",
+    "value": "S",
+    "pressed": false,
+    "pos": {
+      "x": 2,
+      "y": 3
+    }
+  },
+  {
+    "name": "Left",
+    "value": "A",
+    "pressed": false,
+    "pos": {
+      "x": 1,
+      "y": 2
+    }
+  },
+  {
+    "name": "Right",
+    "value": "D",
+    "pressed": false,
+    "pos": {
+      "x": 3,
+      "y": 2
+    }
+  },
+  {
+    "name": "P",
+    "value": "J",
+    "pressed": false,
+    "pos": {
+      "x": 5,
+      "y": 1
+    }
+  },
+  {
+    "name": "K",
+    "value": "K",
+    "pressed": false,
+    "pos": {
+      "x": 6,
+      "y": 1
+    }
+  },
+  {
+    "name": "S",
+    "value": "I",
+    "pressed": false,
+    "pos": {
+      "x": 7,
+      "y": 1
+    }
+  },
+  {
+    "name": "HS",
+    "value": "L",
+    "pressed": false,
+    "pos": {
+      "x": 8,
+      "y": 1
+    }
+  },
+  {
+    "name": "D",
+    "value": "U",
+    "pressed": false,
+    "pos": {
+      "x": 5,
+      "y": 2
+    }
+  },
+  {
+    "name": "Dash",
+    "value": "Space",
+    "pressed": false,
+    "pos": {
+      "x": 6,
+      "y": 2
+    }
+  },
+  {
+    "name": "RC",
+    "value": "O",
+    "pressed": false,
+    "pos": {
+      "x": 7,
+      "y": 2
+    }
+  },
+  {
+    "name": "Taunt",
+    "value": "F",
+    "pressed": false,
+    "pos": {
+      "x": 8,
+      "y": 2
+    }
+  }
+]
