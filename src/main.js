@@ -2,7 +2,7 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const gkm = require('gkm');
 const fs = require('fs');
-const rawKeys = fs.readFileSync(path.join(__dirname, 'cfg/keys.json'));
+const rawKeys = fs.readFileSync(path.join(__dirname, 'cfg/ggst.json'));
 const rawStyles = fs.readFileSync(path.join(__dirname, 'cfg/style.json'));
 const keys = JSON.parse(rawKeys);
 const jsonstyle = JSON.parse(rawStyles);
@@ -55,7 +55,7 @@ for (let y of keys) {
 const createWindow = () => {
     const window = new BrowserWindow({
         width: _x*102 + 50,
-        height: _y*102 + 75,
+        height: _y*102 + 50,
         icon: __dirname + '/favicon.ico',
         autoHideMenuBar: true,
         webPreferences: {
