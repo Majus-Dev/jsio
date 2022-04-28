@@ -11,28 +11,37 @@ window.addEventListener('DOMContentLoaded', async () => {
         jsonstyle = json;
     });
     ipcRenderer.invoke('get-keys', null).then(keys => {
-    for (let key of keys) {
-        let _div = document.createElement('div');
-        _div.classList.add('grid-item');
-        _div.classList.add('key');
-        if (jsonstyle[0].activebackground == "rainbow") {
-            _div.classList.add('rainbow');
-        }
-        else {
-            _div.style.backgroundColor = jsonstyle[0].background;
-        }
-        _div.id = key.value;
-        _div.innerText = key.name;
-        _div.style.gridColumnStart = key.pos.x;
-        _div.style.gridColumnEnd = key.pos.x + 1;
-        if(key.width) _div.style.gridColumnEnd = key.pos.y + key.width; //if key is wider, set gridColumnEnd to width + 1
-        _div.style.gridRowStart = key.pos.y;
-        _div.style.gridRowEnd = key.pos.y + 1;
-        container.appendChild(_div);
-        }
+        updateLayout(keys);
     })
     loop();
 });
+
+ipcRenderer.on('update-layout', (event, keys) => {
+    container.innerHTML = '';
+    updateLayout(keys);
+});
+
+function updateLayout( keys ) {
+  for (let key of keys) {
+    let _div = document.createElement('div');
+    _div.classList.add('grid-item');
+    _div.classList.add('key');
+    if (jsonstyle[0].activebackground == "rainbow") {
+        _div.classList.add('rainbow');
+    }
+    else {
+        _div.style.backgroundColor = jsonstyle[0].background;
+    }
+    _div.id = key.value;
+    _div.innerText = key.name;
+    _div.style.gridColumnStart = key.pos.x;
+    if (!key.width) _div.style.gridColumnEnd = key.pos.x + 2;
+    if(key.width) _div.style.gridColumnEnd = key.pos.x + key.width //if key is wider, set gridColumnEnd to width + 1
+    _div.style.gridRowStart = key.pos.y;
+    _div.style.gridRowEnd = key.pos.y + 2;
+    container.appendChild(_div);
+    }
+}
 
 function loop() {
     setTimeout(() => {
