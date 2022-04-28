@@ -9,6 +9,8 @@ let keys = JSON.parse(rawKeys);
 const rawStyles = fs.readFileSync(path.join(__dirname, 'styles/style.json'));
 const jsonstyle = JSON.parse(rawStyles);
 let preloadEvent
+let _x = 0;
+let _y = 0;
 
 //CREATE MENU
 let template = [
@@ -20,7 +22,6 @@ let template = [
   }
 ]
 for(let item in dir) {
-  console.log(item)
   template[0].submenu.push({ label: `${dir[item]}`,
   click: async () => {
     currentlayout = `${dir[item]}`
@@ -84,8 +85,6 @@ gkm.events.on('mouse.released', (data) => {
     });
     
     // ELECTRON WINDOW STUFF
-    let _x = 0;
-    let _y = 0;
     for (let x of keys) {
       if (_x <= x.pos.x) _x = x.pos.x;
     }
@@ -97,7 +96,7 @@ gkm.events.on('mouse.released', (data) => {
 const createWindow = () => {
     const window = new BrowserWindow({
         width: _x*51 + 75,
-        height: _y*51 + 75,
+        height: _y*51 + 125,
         icon: __dirname + '/favicon.ico',
         //autoHideMenuBar: true,
         webPreferences: {
