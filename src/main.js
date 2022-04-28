@@ -96,8 +96,8 @@ gkm.events.on('mouse.released', (data) => {
 
 const createWindow = () => {
     const window = new BrowserWindow({
-        width: _x*51 + 50,
-        height: _y*51 + 60,
+        width: _x*51 + 75,
+        height: _y*51 + 75,
         icon: __dirname + '/favicon.ico',
         //autoHideMenuBar: true,
         webPreferences: {
@@ -121,4 +121,5 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit()
   })
-
+  
+  
