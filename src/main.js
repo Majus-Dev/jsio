@@ -21,10 +21,10 @@ let template = [
     ]
   }
 ]
-for(let item in dir) {
-  template[0].submenu.push({ label: `${dir[item]}`,
+for(let item of dir) {
+  template[0].submenu.push({ label: `${item}`,
   click: async () => {
-    currentlayout = `${dir[item]}`
+    currentlayout = `${item}`
     updateLayout()
   }} )
   template[0].submenu.push({ type: 'separator' })
@@ -92,6 +92,18 @@ gkm.events.on('mouse.released', (data) => {
       if (_y <= y.pos.y) _y = y.pos.y;
     }
     
+gkm.events.on('mouse.wheel.moved', (data) => {
+	if (data == 'Undefined') return;
+	let slicedData = `MWheel${JSON.stringify(data).split(",")[0].split('"')[1] != 1 ? "Up" : "Down"}`
+	for (let i of keys) {
+		if (i.value == `${slicedData}`) {
+			i.pressed = true;
+			setTimeout(() => {
+				i.pressed = false;
+			}, 10);
+		}
+	}
+})
 
 const createWindow = () => {
     const window = new BrowserWindow({

@@ -30,7 +30,7 @@ function updateLayout( keys ) {
         _div.classList.add('rainbow');
     }
     else {
-        _div.style.backgroundColor = jsonstyle[0].background;
+        _div.style.backgroundColor = jsonstyle[0].activebackground;
     }
     _div.id = key.value;
     _div.innerText = key.name;

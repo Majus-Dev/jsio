@@ -1,0 +1,220 @@
+[
+    {
+        "name": "W",
+        "value": "W",
+        "pressed": false,
+        "pos": {
+            "x": 5,
+            "y": 1
+        }
+    },
+    {
+        "name": "A",
+        "value": "A",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 3
+        }
+    },
+    {
+        "name": "S",
+        "value": "S",
+        "pressed": false,
+        "pos": {
+            "x": 5,
+            "y": 3
+        }
+    },
+    {
+        "name": "D",
+        "value": "D",
+        "pressed": false,
+        "pos": {
+            "x": 7,
+            "y": 3
+        }
+    },
+    {
+        "name": "Q",
+        "value": "Q",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 1
+        }
+    },
+    {
+        "name": "R",
+        "value": "R",
+        "pressed": false,
+        "pos": {
+            "x": 9,
+            "y": 1
+        }
+    },
+    {
+        "name": "F",
+        "value": "F",
+        "pressed": false,
+        "pos": {
+            "x": 9,
+            "y": 3
+        }
+    },
+    {
+        "name": "E",
+        "value": "E",
+        "pressed": false,
+        "pos": {
+            "x": 7,
+            "y": 1
+        }
+    },
+    {
+      "name": "Tab",
+      "value": "Tab",
+      "pressed": false,
+      "pos": {
+          "x": 1,
+          "y": 3
+      }
+    },
+    {
+        "name": "Shift",
+        "value": "Left Shift",
+        "pressed": false,
+        "pos": {
+            "x": 1,
+            "y": 5
+        }
+    },
+    {
+        "name": "Ctrl",
+        "value": "Left Control",
+        "pressed": false,
+        "pos": {
+            "x": 1,
+            "y": 7
+        }
+    },
+    {
+        "name": "Alt",
+        "value": "Left Alt",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 7
+      }
+    },
+    {
+        "name": "Space",
+        "value": "Space",
+        "pressed": false,
+        "pos": {
+            "x": 3,
+            "y": 5
+        },
+        "width": 6
+    },
+
+    {
+        "name": "M1",
+        "value": "M1",
+        "pressed": false,
+        "pos": {
+            "x": 11,
+            "y": 5
+        }
+    },
+    {
+        "name": "M2",
+        "value": "M2",
+        "pressed": false,
+        "pos": {
+            "x": 13,
+            "y": 5
+        }
+    },
+    {
+      "name": "M3",
+      "value": "M3",
+      "pressed": false,
+      "pos": {
+        "x": 7,
+        "y": 7
+      }
+    },
+    {
+      "name": "X",
+      "value": "X",
+      "pressed": false,
+      "pos": {
+        "x": 5,
+        "y": 7
+      }
+    },
+    {
+        "name": "M5",
+        "value": "M5",
+        "pressed": false,
+        "pos": {
+            "x": 9,
+            "y": 6
+        }
+    },
+    {
+      "name": "1",
+      "value": "1",
+      "pressed": false,
+      "pos": {
+        "x": 1,
+        "y": 9
+      }
+    },
+    {
+      "name": "2",
+      "value": "2",
+      "pressed": false,
+      "pos": {
+        "x": 3,
+        "y": 9
+      }
+    },
+    {
+      "name": "3",
+      "value": "3",
+      "pressed": false,
+      "pos": {
+        "x": 5,
+        "y": 9
+      }
+    },
+    {
+      "name": "4",
+      "value": "4",
+      "pressed": false,
+      "pos": {
+        "x": 7,
+        "y": 9
+      }
+    },
+    {
+      "name": "T",
+      "value": "T",
+      "pressed": false,
+      "pos": {
+        "x": 9,
+        "y": 9
+      }
+    },
+    {
+      "name": "V",
+      "value": "V",
+      "pressed": false,
+      "pos": {
+        "x": 11,
+        "y": 9
+      }
+    }
+]
